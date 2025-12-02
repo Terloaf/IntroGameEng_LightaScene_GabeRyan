@@ -1,12 +1,12 @@
 using UnityEngine;
 
-public class DoorSlamTrigger : MonoBehaviour
+public class ExitTrigger : MonoBehaviour
 {
-    public GameObject Timeline;
+    public GameObject ExitTimeline;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Timeline.gameObject.SetActive(false);
+        ExitTimeline.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -17,7 +17,7 @@ public class DoorSlamTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Timeline.gameObject.SetActive(true);
+        ExitTimeline.gameObject.SetActive(true);
         Destroy(gameObject);
     }
 }

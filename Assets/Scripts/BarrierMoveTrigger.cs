@@ -18,5 +18,6 @@ public class BarrierMoveTrigger : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         barrierTimeline.gameObject.SetActive(true);
+        Destroy(gameObject);
     }
 }
