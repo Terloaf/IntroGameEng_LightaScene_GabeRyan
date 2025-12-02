@@ -31203,7 +31203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -49375,7 +49375,6 @@ GameObject:
   - component: {fileID: 1985093155}
   - component: {fileID: 1985093157}
   - component: {fileID: 1985093156}
-  - component: {fileID: 1985093158}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -49416,7 +49415,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 0}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -49440,19 +49439,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1985093154}
   m_CullTransparentMesh: 1
---- !u!114 &1985093158
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985093154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e238ec4f714d3934a9b5f5554987dd89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvasSize: {fileID: 1287000504}
 --- !u!1 &1985259451
 GameObject:
   m_ObjectHideFlags: 0
